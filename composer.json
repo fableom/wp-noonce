@@ -1,0 +1,19 @@
+{
+    "name": "fableom/wp-noonce",
+    "type": "library",
+    "license": "GPL3",
+    "description": "An object oriented wrapper for WordPress nonces",
+    "require": {},
+    "require-dev": {
+        "brain/monkey": "^2.1",
+        "phpunit/phpunit": "6.4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "fableom\\WPNoonce\\": "src"
+        }
+    },
+    "authors": [{
+        "name": "Mark Schatz"
+    }]
+}
